@@ -9,14 +9,6 @@ proxies:
 
   - {
       "type": "ss",
-      "name": "UY_🇺🇾H",
-      "server": "179.27.200.28",
-      "port": 989,
-      "cipher": "aes-256-cfb",
-      "password": "f8f7aCzcPKbsF8p3",
-    }
-  - {
-      "type": "ss",
       "name": "RU_🇷🇺H",
       "server": "213.183.53.222",
       "port": 9064,
