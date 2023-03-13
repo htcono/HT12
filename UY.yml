@@ -100,8 +100,8 @@ dns:
 proxies:
   - {
       "type": "ss",
-      "name": "MK_🇲🇰H",
-      "server": "46.183.185.37",
+      "name": "UY_🇺🇾H",
+      "server": "179.27.200.28",
       "port": 989,
       "cipher": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
