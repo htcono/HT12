@@ -100,7 +100,7 @@ dns:
 proxies:
   - {
       "type": "ss",
-      "name": "UY_🇺🇾_Montevideo_AzadNet",
+      "name": "UY_🇺🇾H",
       "server": "179.27.200.28",
       "port": 989,
       "cipher": "aes-256-cfb",
