@@ -1,0 +1,27 @@
+mixed-port: 7890
+allow-lan: false
+mode: Global
+log-level: silent
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:53
+  enhanced-mode: redir-host
+  nameserver:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+  fallback:
+    - https://1.0.0.1/dns-query
+    - https://8.8.4.4/dns-query
+    - 1.1.1.1
+    - 8.8.8.8
+proxies:
+  - {
+      name: "HT 🇬🇷 Thessaloniki",
+      server: 192.71.166.102,
+      port: 989,
+      type: ss,
+      cipher: aes-256-cfb,
+      password: f8f7aCzcPKbsF8p3,
+    }
