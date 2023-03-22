@@ -16,11 +16,12 @@ dns:
     - tls://dns.google:853
 
 proxies:
+
   - {
-      "name": "🇬🇷GR_HT",
       "type": "ss",
-      "server": "192.71.166.102",
+      "name": "PE_🇵🇪_Lima_AzadNet",
+      "server": "190.120.229.28",
       "port": 989,
-      "password": "f8f7aCzcPKbsF8p3",
       "cipher": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
     }
