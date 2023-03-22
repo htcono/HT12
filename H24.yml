@@ -19,7 +19,7 @@ proxies:
 
   - {
       "type": "ss",
-      "name": "PE_🇵🇪_Lima_AzadNet",
+      "name": "PE_🇵🇪HT",
       "server": "190.120.229.28",
       "port": 989,
       "cipher": "aes-256-cfb",
