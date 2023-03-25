@@ -100,7 +100,7 @@ dns:
 proxies:
   - {
       "type": "ss",
-      "name": "HR_🇭🇷_HT",
+      "name": "HR_🇭🇷_H",
       "server": "46.183.184.61",
       "port": 989,
       "cipher": "aes-256-cfb",
