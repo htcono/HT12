@@ -100,9 +100,10 @@ dns:
 proxies:
   - {
       "type": "ss",
-      "name": "UY_🇺🇾_HT",
-      "server": "179.27.200.28",
+      "name": "HR_🇭🇷_HT",
+      "server": "46.183.184.61",
       "port": 989,
       "cipher": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
     }
+
