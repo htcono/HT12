@@ -1,0 +1,49 @@
+port: 7890
+
+
+
+socks-port: 7891
+
+
+
+allow-lan: true
+
+mode: Global
+
+external-controller: 0.0.0.0:9090
+
+log-level: debug
+
+dns:
+
+  enabled: true
+
+  nameserver:
+
+    - 119.29.29.29
+
+    - 223.5.5.5
+
+  fallback:
+
+    - 8.8.8.8
+
+    - 8.8.4.4
+
+    - tls://1.0.0.1:853
+
+    - tls://dns.google:853
+
+
+
+proxies:
+
+  - {"name":"🇱🇺LU(AzadNet.t.me)_001","type":"vmess","server":"188.42.88.41","port":2096,"cipher":"auto","uuid":"c4e55377-8e24-4e40-bb43-559b894b7c8f","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"h12.drlaban.ir"}}}
+
+
+
+  - {"name":"🇱🇺LU(AzadNet.t.me)_002","type":"ss","server":"92.38.163.53","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+
+  - {"name":"🇱🇻LV(AzadNet.t.me)","type":"ss","server":"192.36.41.28","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+
+  - {"name":"🇲🇩MD(AzadNet.t.me)","type":"ss","server":"192.121.87.147","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
