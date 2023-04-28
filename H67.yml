@@ -38,7 +38,7 @@ proxies:
       "cipher": "aes-256-cfb",
     }
   - {
-      "name": "🇳🇱NL_HT_023",
+      "name": "🇳🇱NL_HT_23",
       "type": "vmess",
       "server": "188.114.96.3",
       "port": 443,
