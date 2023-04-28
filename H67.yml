@@ -3,7 +3,7 @@ socks-port: 7891
 allow-lan: true
 mode: Global
 external-controller: 0.0.0.0:9090
-log-level: info
+log-level: debug
 dns:
   enabled: true
   nameserver:
