@@ -17,17 +17,12 @@ dns:
 
 proxies:
   - {
-      "name": "🇦🇺AU_HT_013",
-      "type": "vmess",
-      "server": "47.74.89.109",
-      "port": 28056,
-      "cipher": "auto",
-      "uuid": "e2111758-b370-4c0e-8061-0269741a39ef",
-      "alterId": 64,
-      "tls": true,
-      "skip-cert-verify": true,
-      "network": "ws",
-      "ws-opts": { "path": "/aus/getData" },
+      "name": "🇲🇩MD_HT_001",
+      "type": "ss",
+      "server": "192.121.87.147",
+      "port": 989,
+      "password": "f8f7aCzcPKbsF8p3",
+      "cipher": "aes-256-cfb",
     }
   - {
       "name": "🇪🇬EG_HT",
