@@ -37,3 +37,20 @@ proxies:
       "password": "f8f7aCzcPKbsF8p3",
       "cipher": "aes-256-cfb",
     }
+  - {
+      "name": "🇳🇱NL_HT_023",
+      "type": "vmess",
+      "server": "188.114.96.3",
+      "port": 443,
+      "cipher": "auto",
+      "uuid": "DCE76061-EE65-49DB-997C-A6A880DADE3A",
+      "alterId": 0,
+      "tls": true,
+      "skip-cert-verify": true,
+      "network": "ws",
+      "ws-opts":
+        {
+          "path": "/speedtest/Kansas.kotick.site",
+          "headers": { "host": "yellow-cherry-92c0.walidfree12.workers.dev" },
+        },
+    }
