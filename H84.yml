@@ -19,10 +19,22 @@ dns:
 
 proxies:
   - {
-      "name": "🇬🇹GT_HT",
+      "name": "🇮🇸IS_HT_001",
       "type": "ss",
-      "server": "170.80.111.6",
+      "server": "37.235.49.162",
       "port": 989,
       "password": "f8f7aCzcPKbsF8p3",
       "cipher": "aes-256-cfb",
+    }
+  - {
+      "name": "🇺🇸US_HT_017",
+      "type": "vmess",
+      "server": "38.63.0.92",
+      "port": 47002,
+      "cipher": "auto",
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "alterId": 64,
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "tcp",
     }
