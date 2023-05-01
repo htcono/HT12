@@ -5,7 +5,7 @@ socks-port: 7891
 allow-lan: true
 mode: Global
 external-controller: 0.0.0.0:9090
-log-level: info
+log-level: debug
 dns:
   enabled: true
   nameserver:
@@ -18,4 +18,11 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇲🇩MD(AzadNet.t.me)","type":"ss","server":"192.121.87.147","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {
+      "name": "🇬🇹GT_HT",
+      "type": "ss",
+      "server": "170.80.111.6",
+      "port": 989,
+      "password": "f8f7aCzcPKbsF8p3",
+      "cipher": "aes-256-cfb",
+    }
