@@ -27,14 +27,15 @@ proxies:
       "cipher": "aes-256-cfb",
     }
   - {
-      "name": "🇺🇸US_HT_017",
+      "name": "🇺🇸US_HT_436",
       "type": "vmess",
-      "server": "38.63.0.92",
-      "port": 47002,
+      "server": "170.178.179.189",
+      "port": 443,
       "cipher": "auto",
       "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
       "alterId": 64,
-      "tls": false,
+      "tls": true,
       "skip-cert-verify": true,
-      "network": "tcp",
+      "network": "ws",
+      "ws-opts": { "path": "/path/031730091420" },
     }
