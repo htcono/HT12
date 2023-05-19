@@ -17,21 +17,16 @@ dns:
 
 proxies:
   - {
-      "name": "🇺🇸US_HT_112",
+      "name": "🇺🇸US_110",
       "type": "vmess",
-      "server": "67.21.72.41",
-      "port": 443,
+      "server": "45.58.186.81",
+      "port": 51140,
       "cipher": "auto",
-      "uuid": "2566d00f-218c-48f7-9a36-13d3d6f1a724",
+      "uuid": "4a138e19-0595-4d51-83c6-fd276cf7d307",
       "alterId": 64,
-      "tls": true,
+      "tls": false,
       "skip-cert-verify": true,
-      "network": "ws",
-      "ws-opts":
-        {
-          "path": "/path/173418141123",
-          "headers": { "host": "www.17080100.xyz" },
-        },
+      "network": "tcp",
     }
   - {
       "name": "🇪🇬EG_HT",
