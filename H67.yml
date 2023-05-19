@@ -17,7 +17,7 @@ dns:
 
 proxies:
   - {
-      "name": "🇺🇸US(AzadNet.t.me)_290",
+      "name": "🇺🇸US290",
       "type": "vmess",
       "server": "64.32.24.210",
       "port": 48659,
