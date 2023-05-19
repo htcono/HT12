@@ -17,12 +17,12 @@ dns:
 
 proxies:
   - {
-      "name": "🇺🇸US_110",
+      "name": "🇺🇸US(AzadNet.t.me)_290",
       "type": "vmess",
-      "server": "45.58.186.81",
-      "port": 51140,
+      "server": "64.32.24.210",
+      "port": 48659,
       "cipher": "auto",
-      "uuid": "4a138e19-0595-4d51-83c6-fd276cf7d307",
+      "uuid": "cff9d860-7330-4ee1-b072-7142ddf1571d",
       "alterId": 64,
       "tls": false,
       "skip-cert-verify": true,
