@@ -29,12 +29,12 @@ proxies:
       "network": "tcp",
     }
   - {
-      "name": "🇪🇬EG_HT",
       "type": "ss",
-      "server": "41.215.242.179",
+      "name": "UY_🇺🇾_Montevideo_AzadNet",
+      "server": "179.27.200.28",
       "port": 989,
-      "password": "f8f7aCzcPKbsF8p3",
       "cipher": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
     }
   - {
       "name": "🇮🇸IS_HT_001",
