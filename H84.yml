@@ -1,7 +1,5 @@
 port: 7890
-
 socks-port: 7891
-
 allow-lan: true
 mode: Global
 external-controller: 0.0.0.0:9090
@@ -9,33 +7,50 @@ log-level: debug
 dns:
   enabled: true
   nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+    - "8.8.8.8"
+    - "1.1.1.1"
 
-proxies:
+fallback:
+  - "1.0.0.1"
+  - "8.8.4.4"
+  - tls://1.0.0.1:853
+  - tls://dns.google:853
+tun:
+  enable: true
+  stack: system # or gvisor
+  dns-hijack:
+    - any:53
+    - tcp://any:53
+  auto-redir: true
+  auto-route: true
+  auto-detect-interface: true
+
+proxies:
   - {
-      "name": "🇮🇸IS_HT_001",
+      "name": "🇬🇹GT_HT_",
       "type": "ss",
-      "server": "37.235.49.162",
+      "server": "170.80.111.5",
       "port": 989,
       "password": "f8f7aCzcPKbsF8p3",
       "cipher": "aes-256-cfb",
     }
   - {
-      "name": "🇺🇸US_HT_436",
+      "name": "🇲🇰MK_HT_",
+      "type": "ss",
+      "server": "46.183.185.15",
+      "port": 989,
+      "password": "f8f7aCzcPKbsF8p3",
+      "cipher": "aes-256-cfb",
+    }
+  - {
+      "name": "🇺🇸US_HT_120",
       "type": "vmess",
-      "server": "170.178.179.189",
-      "port": 443,
+      "server": "107.167.16.214",
+      "port": 33589,
       "cipher": "auto",
-      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "uuid": "8c679b81-84fc-43ce-9553-ddca575a6949",
       "alterId": 64,
-      "tls": true,
+      "tls": false,
       "skip-cert-verify": true,
-      "network": "ws",
-      "ws-opts": { "path": "/path/031730091420" },
+      "network": "tcp",
     }
