@@ -98,3 +98,28 @@ proxies:
       "skip-cert-verify": true,
       "network": "tcp",
     }
+      - {
+      "name": "🇫🇷_FR_法国_1",
+      "type": "ss",
+      "server": "54.36.174.181",
+      "port": 8000,
+      "password": "KixLvKzwjekG00rm",
+      "cipher": "aes-256-gcm",
+    }
+  - {
+      "name": "🇫🇷_FR_法国_2",
+      "type": "ss",
+      "server": "54.36.174.181",
+      "port": 5600,
+      "password": "Y6R9pAtvxxzmGC",
+      "cipher": "aes-256-gcm",
+    }
+  - {
+      "name": "🇫🇷_FR_法国->🇦🇹_AT_奥地利",
+      "type": "ss",
+      "server": "135.125.244.103",
+      "port": 989,
+      "password": "f8f7aCzcPKbsF8p3",
+      "cipher": "aes-256-cfb",
+    }
+
