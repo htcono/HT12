@@ -27,6 +27,14 @@ tun:
 
 proxies:
   - {
+      "name": "🇭🇷HR_HT_001",
+      "type": "ss",
+      "server": "46.183.184.61",
+      "port": 989,
+      "password": "f8f7aCzcPKbsF8p3",
+      "cipher": "aes-256-cfb",
+    }
+  - {
       "type": "ss",
       "name": "AR_🇦🇷_Buenos_Aires_HT",
       "server": "190.103.176.29",
