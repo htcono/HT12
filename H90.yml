@@ -27,6 +27,14 @@ tun:
 
 proxies:
   - {
+      "name": "🇨🇦CA_HTW012",
+      "type": "ss",
+      "server": "134.195.196.149",
+      "port": 8882,
+      "password": "kDWvXYZoTBcGkC4",
+      "cipher": "aes-256-gcm",
+    }
+  - {
       name: "Aloha Greece 🇬🇷 HT",
       server: 192.71.166.102,
       port: 989,
