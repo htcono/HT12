@@ -28,7 +28,7 @@ tun:
 proxies:
   - {
       "type": "ss",
-      "name": "AR_🇦🇷_Buenos_Aires_AzadNet",
+      "name": "AR_🇦🇷_Buenos_Aires_HT",
       "server": "190.103.176.29",
       "port": 989,
       "cipher": "aes-256-cfb",
