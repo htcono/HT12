@@ -35,14 +35,6 @@ proxies:
       "cipher": "aes-256-gcm",
     }
   - {
-      name: "Aloha Greece 🇬🇷 HT",
-      server: 192.71.166.102,
-      port: 989,
-      type: ss,
-      cipher: aes-256-cfb,
-      password: f8f7aCzcPKbsF8p3,
-    }
-  - {
       "name": "🇭🇷HR_HT_001",
       "type": "ss",
       "server": "46.183.184.61",
@@ -74,14 +66,6 @@ proxies:
       "name": "🇲🇰MK_HT",
       "type": "ss",
       "server": "46.183.185.15",
-      "port": 989,
-      "password": "f8f7aCzcPKbsF8p3",
-      "cipher": "aes-256-cfb",
-    }
-  - {
-      "name": "🇲🇽MX_HT",
-      "type": "ss",
-      "server": "190.103.179.23",
       "port": 989,
       "password": "f8f7aCzcPKbsF8p3",
       "cipher": "aes-256-cfb",
