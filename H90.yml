@@ -27,6 +27,14 @@ tun:
 
 proxies:
   - {
+      name: "Aloha Greece 🇬🇷 HT",
+      server: 192.71.166.102,
+      port: 989,
+      type: ss,
+      cipher: aes-256-cfb,
+      password: f8f7aCzcPKbsF8p3,
+    }
+  - {
       "name": "🇭🇷HR_HT_001",
       "type": "ss",
       "server": "46.183.184.61",
