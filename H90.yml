@@ -1,0 +1,76 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Global
+external-controller: 0.0.0.0:9090
+log-level: debug
+dns:
+  enabled: true
+  nameserver:
+    - "8.8.8.8"
+    - "1.1.1.1"
+
+fallback:
+  - "1.0.0.1"
+  - "8.8.4.4"
+  - tls://1.0.0.1:853
+  - tls://dns.google:853
+tun:
+  enable: true
+  stack: system # or gvisor
+  dns-hijack:
+    - any:53
+    - tcp://any:53
+  auto-redir: true
+  auto-route: true
+  auto-detect-interface: true
+
+proxies:
+  - {
+      "type": "ss",
+      "name": "AR_🇦🇷_Buenos_Aires_AzadNet",
+      "server": "190.103.176.29",
+      "port": 989,
+      "cipher": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+    }
+  - {
+      "name": "🇪🇬EG_HT_001",
+      "type": "vmess",
+      "server": "41.215.242.89",
+      "port": 35679,
+      "cipher": "auto",
+      "uuid": "ee442f43-b07a-419d-bd27-2d3456393abc",
+      "alterId": 64,
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "none",
+    }
+  - {
+      "name": "🇲🇰MK_HT",
+      "type": "ss",
+      "server": "46.183.185.15",
+      "port": 989,
+      "password": "f8f7aCzcPKbsF8p3",
+      "cipher": "aes-256-cfb",
+    }
+  - {
+      "name": "🇲🇽MX_HT",
+      "type": "ss",
+      "server": "190.103.179.23",
+      "port": 989,
+      "password": "f8f7aCzcPKbsF8p3",
+      "cipher": "aes-256-cfb",
+    }
+  - {
+      "name": "🇺🇸US_HT_109",
+      "type": "vmess",
+      "server": "107.167.7.19",
+      "port": 41654,
+      "cipher": "auto",
+      "uuid": "bdee202c-8fae-441f-a588-7bc4d3887019",
+      "alterId": 64,
+      "tls": false,
+      "skip-cert-verify": true,
+      "network": "tcp",
+    }
