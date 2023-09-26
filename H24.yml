@@ -24,3 +24,11 @@ proxies:
       "password": "f8f7aCzcPKbsF8p3",
       "cipher": "aes-256-cfb",
     }
+  - {
+      "type": "ss",
+      "name": "NL_🇳🇱_Rozendaal_HT",
+      "server": "109.201.152.181",
+      "port": 443,
+      "cipher": "aes-128-cfb",
+      "password": "shadowsocks",
+    }
