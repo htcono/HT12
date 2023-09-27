@@ -32,3 +32,11 @@ proxies:
       "cipher": "aes-128-cfb",
       "password": "shadowsocks",
     }
+  - {
+      "name": "🇺🇸US_HT_798",
+      "type": "ss",
+      "server": "205.134.180.145",
+      "port": 443,
+      "password": "hgLCgfLRgB6d",
+      "cipher": "chacha20-ietf-poly1305",
+    }
