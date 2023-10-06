@@ -33,14 +33,14 @@ proxies:
       "port": 989,
       "password": "f8f7aCzcPKbsF8p3",
       "cipher": "aes-256-cfb",
-    }
+    }
   - {
+      "name": "🇧🇦BA_HT",
       "type": "ss",
-      "name": "AR_🇦🇷_Buenos_Aires_HT",
-      "server": "190.103.176.29",
+      "server": "185.164.35.9",
       "port": 989,
-      "cipher": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
+      "cipher": "aes-256-cfb",
     }
   - {
       "name": "🇵🇱PL_HT_066",
