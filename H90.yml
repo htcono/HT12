@@ -43,18 +43,18 @@ proxies:
       "cipher": "aes-256-cfb",
     }
   - {
-      "name": "🇵🇱PL_HT_066",
+      "name": "🇧🇪BE_HT_001",
       "type": "ss",
-      "server": "217.30.10.68",
-      "port": 9043,
-      "password": "HSZuyJQcWe8dxNdF",
-      "cipher": "aes-256-cfb",
-    }
-  - {
-      "name": "🇺🇦UA_HT_016",
-      "type": "ss",
-      "server": "5.188.6.8",
+      "server": "192.71.249.71",
       "port": 989,
       "password": "f8f7aCzcPKbsF8p3",
       "cipher": "aes-256-cfb",
     }
+  - {
+      "name": "🇪🇪EE_HT_003",
+      "type": "ss",
+      "server": "45.129.96.62",
+      "port": 51348,
+      "password": "dafHo6GF3d67mOdji",
+      "cipher": "chacha20-ietf-poly1305",
+    } 
