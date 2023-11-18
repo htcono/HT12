@@ -51,10 +51,10 @@ proxies:
       "cipher": "aes-256-cfb",
     }
   - {
-      "name": "🇪🇪EE_HT_003",
+      "name": "🇫🇷FR_HT_041",
       "type": "ss",
-      "server": "45.129.96.62",
-      "port": 51348,
-      "password": "dafHo6GF3d67mOdji",
-      "cipher": "chacha20-ietf-poly1305",
-    } 
+      "server": "51.159.221.230",
+      "port": 443,
+      "password": "asdKkaskJKfnsa",
+      "cipher": "aes-256-cfb",
+    }
