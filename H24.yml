@@ -17,12 +17,12 @@ dns:
 
 proxies:
   - {
-      "name": "🇬🇷GR_HT",
+      "name": "seSE_HT_M12",
       "type": "ss",
-      "server": "192.71.166.102",
-      "port": 989,
-      "password": "f8f7aCzcPKbsF8p3",
-      "cipher": "aes-256-cfb",
+      "server": "passconf.xyz",
+      "port": 8080,
+      "password": "qGjmI8WQlF0tfhDbkLqGdN",
+      "cipher": "chacha20-ietf-poly1305",
     }
   - {
       "type": "ss",
