@@ -27,12 +27,12 @@ tun:
 
 proxies:
   - {
-      "name": "🇭🇷HR_HT_001",
+      "name": "seSE_HT_M12",
       "type": "ss",
-      "server": "46.183.184.61",
-      "port": 989,
-      "password": "f8f7aCzcPKbsF8p3",
-      "cipher": "aes-256-cfb",
+      "server": "passconf.xyz",
+      "port": 8080,
+      "password": "qGjmI8WQlF0tfhDbkLqGdN",
+      "cipher": "chacha20-ietf-poly1305",
     }
   - {
       "name": "🇧🇦BA_HT",
